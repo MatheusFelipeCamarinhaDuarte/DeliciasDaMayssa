@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DeliciasDaMayssa" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Definindo cores primarias -->
+        <item name="colorPrimary">@color/primaria</item>
+        <item name="colorPrimaryVariant">@color/primariaVariant</item>
+
+        <!-- definindo cores secundárias -->
+        <item name="colorSecondary">@color/secundaria</item>
+        <item name="colorSecondaryVariant">@color/secundariaVariant</item>
+
+        <!-- Definindo as cores de fundo -->
+        <item name="android:windowBackground"> @color/corDeFundo</item>
+    </style>
+
+    <style name="Theme.DeliciasDaMayssa" parent="Base.Theme.DeliciasDaMayssa" />
+</resources>
